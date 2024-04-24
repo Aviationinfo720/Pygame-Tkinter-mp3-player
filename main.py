@@ -117,10 +117,10 @@ menubar.add_cascade(label='Organise', menu=organise_menu)
 songlist = Listbox(root, bg='black', fg='white', width=100, height=15)
 songlist.pack()
  
-play_btn_image = PhotoImage(file="") # Put the button image path here, this is for the play button
-pause_btn_image = PhotoImage(file="") # Put the button image path here, this is for the pause button
-next_btn_image = PhotoImage(file="") # Put the button image path here, this is for the next button
-previous_btn_image = PhotoImage(file="") # Put the button image path here, this is for the  previous button
+play_btn_image = PhotoImage(file="Aviationinfo720/Pygame-Tkinter-mp3-player/play.png") # Put the button image path here, this is for the play button
+pause_btn_image = PhotoImage(file="Aviationinfo720/Pygame-Tkinter-mp3-player/pause.png") # Put the button image path here, this is for the pause button
+next_btn_image = PhotoImage(file="Aviationinfo720/Pygame-Tkinter-mp3-player/next.png") # Put the button image path here, this is for the next button
+previous_btn_image = PhotoImage(file="Aviationinfo720/Pygame-Tkinter-mp3-player/previous.png") # Put the button image path here, this is for the  previous button
  
 control_frame = Frame(root)
 control_frame.pack()
